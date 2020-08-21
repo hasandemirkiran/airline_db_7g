@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_airline_db_7g_airline_db_7g,aline_db.airline,mode_aline_db_airline,1,1,1,0
+access2_airline_db_7g_airline_db_7g,aline_db.alliance,mode_aline_db_alliance,1,1,1,0

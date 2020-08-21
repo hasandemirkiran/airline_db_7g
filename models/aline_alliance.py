@@ -1,9 +1,6 @@
-from odoo import models, fields     
+from odoo import models, fields , api   
 class Alliance(models.Model): 
     _name = 'aline_db.alliance' 
+
     name = fields.Char('Name', required=True) 
-    website = fields.Char('Website', required=True)
-    author_ids = fields.Many2many(
-        'res.partner', 
-        string='Authors'
-    )
+    website = fields.Char('Website')

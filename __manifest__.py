@@ -10,8 +10,10 @@
     'description': """
     Airplane Database Odoo Modules 
     """,
-    #'data': ['views.xml'],
-    'demo': ['demo.xml'], 
+    #always loaded
+    'data': ['views/views.xml'],
+    #only load in demonstration mode 
+    'demo': ['demo/demo.xml'], 
     'application' : True,
     'auto_install' : False,
     'installable' : True,
